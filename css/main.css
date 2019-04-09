@@ -758,13 +758,14 @@ select.form-control:-webkit-autofill:focus {
 	position: relative;
 	clear: both;
 	overflow: overlay;
+	min-height: 61.69px;
 }
 .footer .footer-inner  {
     padding-right: 386px;
     padding-left: 386px;
 	background-color: #000;
 	overflow: overlay;
-	min-height: 61.69px;
+	
 }
 .footer .footer-inner p {
 	display: inline-block;

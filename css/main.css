@@ -751,7 +751,7 @@ select.form-control:-webkit-autofill:focus {
 /* FOOTER */
 
 .footer {
-	background-color: #000;
+	background-color: rgb(0,0,0);
 	position: relative;
 	clear: both;
 	overflow: overlay;

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html  lang="es">
+<head>
+	<title>MGAR</title>
+
+	<!-- META TAGS  -->	
+	<meta name="msapplication-TileColor" content="#00aba9">
+	<meta name="theme-color" content="#ffffff">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!-- ZELDA TAGS -->
+	<link rel="apple-touch-icon" sizes="180x180" href="imagenes/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="imagenes/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="imagenes/favicon-16x16.png">
+	<link rel="manifest" href="imagenes/site.webmanifest">
+	<link rel="mask-icon" href="imagenes/safari-pinned-tab.svg" color="#5bbad5">
+
+	<link href="https://fonts.googleapis.com/css?family=Barlow:400,600,800" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/querys.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+	<!-- JABBA THE HUTT -->
+
+	<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	
+	
+
+</head>
+<body>
+	<!-- NAVBAR -->
+	<nav class="navbar navbar-fixed-top mgar-nav">
+		<div class="container-fluid">
+			<div type="button" class="button_container" id="toggle" data-toggle="modal" data-target="#myModal">
+				<span class="top"></span><span class="middle"></span><span class="bottom"></span>
+			</div>
+			<div class="modal fade" id="myModal" role="dialog">
+				<div class="modal-dialog modal-navbar">
+				<!-- Modal content-->
+					<div class="modal-content ">
+						<div class="modal-header">
+							<div class="modal-logo">
+								<a href="/"><img class="img-responsive margin-auto" src="imagenes/mgar-logo-white.png"></a>
+							</div>	
+						</div>
+						<div class="modal-body">
+							<ul class="modal-links">
+								<li><a data-dismiss="modal" class="inpage" id="principal-close" href="#principal">Principal</a></li>
+								<hr>
+								<li><a href="/trayectoria.html">Trayectoria</a></li>
+								<hr>
+								<li><a href="/servicios.html">Servicios</a></li>
+								<hr>
+								<li><a data-dismiss="modal" class="inpage" id="contacto-close" href="#contacto">Contacto</a></li>
+								<hr class="hidden-xs">
+								<li><div data-dismiss="modal" id="toggle-close"><i class="fas fa-times"></i></div></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="navbar-header logo-mgar">
+				<a class="navbar-brand" href="/"><img alt="Inicio" src="imagenes/mgar-logo.png" class="img-responsive " ></a>
+			</div>
+			<div class="english">
+				<a href="#">
+					<img src="imagenes/eng-button.svg">
+					<p class="english-inner">Eng</p>
+				</a>
+			</div>
+		</div>
+	</nav>
+
+	<!-- PORTADA -->
+	
+	<div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+		<div id="principal"></div>
+		<!--<ol class="carousel-indicators">
+			<li data-target="#carousel" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel" data-slide-to="1"></li>-->
+		</ol>
+		<div class="go-down">
+			<div class="mouse"></div>
+		</div>
+		<!-- Carousel items -->
+		<div class="carousel-inner">
+			<div class="active item carousel-servicios">
+				<div class="container max-vh vertical-position item-inner">
+					<div class="vertical-position-center">
+						<h3>Consultoría de gestión enfocada en resultados</h3>
+						<p>Con una vasta experiencia en el mercado local e internacional, brindamos soluciones que ayudan a lograr una mayor capacidad competitiva</p>
+						<a href="/servicios.html" class="btn btn-primary">Servicios</a>
+					</div>
+				</div>
+			</div>
+			<div class="item carousel-trayectoria">
+				<div class="container max-vh vertical-position item-inner ">
+					<div class="vertical-position-center">
+						<h3>La tecnología como principal aliado para potenciar los negocios</h3>
+						<p>Nuestro equipo de profesionales cuenta con mas de 30 años de experiencia</p>
+						<a href="#" class="btn btn-primary">Trayectoria</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Carousel nav 
+		<a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
+		<a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>-->
+	</div>	
+	<!-- MAIN -->
+	<div class="main">
+		<div class="trayectoria-servicios" id="trayectoria">
+			<div class="trayectoria">
+				<h3>Somos un grupo de profesionales de distintas disciplinas con amplia experiencia en Consultoría  de Gestión</h3>
+				<p>Nos basamos en 4 ejes que garantizan la calidad profesional de nuestro trabajo.</p>
+				<div class="container tarjetas">
+					<div class="col-md-3">
+						<div class="tarjetas-inner delay-tresms not-in-view">
+							<img src="imagenes/metodologia.png" class="img-responsive margin-auto img-tarjetas">
+							<h3>Metodología</h3>
+							<p>Herramientas que simplifican el flujo de trabajo, de manera profesional.</p>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="tarjetas-inner delay-seisms not-in-view">
+							<img src="imagenes/reciprocidad.png" class="img-responsive margin-auto img-tarjetas">
+							<h3>Reciprocidad</h3>
+							<p>Confiamos en el trato cordial e integral de ambas partes.</p>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="tarjetas-inner delay-nuevems not-in-view">
+							<img src="imagenes/teamwork.png" class="img-responsive margin-auto img-tarjetas">
+							<h3>Teamwork</h3>
+							<p>Nuestro equipo interactúa para originar ideas superadoras.</p>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="tarjetas-inner delay-docems not-in-view">
+							<img src="imagenes/precision.png" class="img-responsive margin-auto img-tarjetas">
+							<h3>Precisión</h3>
+							<p>Soluciones efectivas, en base al diagnóstico preciso del proyecto.</p>
+						</div>
+					</div>
+				</div>
+				<div class="trayectoria-btn text-center">
+					<a href="" class="btn btn-primary">Trayectoria</a>
+				</div>
+			</div>
+			<div class="servicios not-in-view delay-catorce delay-delay">
+				<div class="col-md-7 col-sx-12 col-md-push-5">
+					<div class="servicios-img">
+						
+					</div>
+				</div>
+				<div class="col-md-5 col-xs-12 col-md-pull-7">
+					<div class="servicios-inner vertical-position padding-xs" >
+						<div class="vertical-position-center">
+							<h3>Servicios</h3>	
+							<p>Proveemos servicios de consultoría que contribuyen a una mejor gestión de las empresas tanto en el área de negocio como de tecnología informática.</p>
+							<a href="/servicios.html" class="btn btn-primary">Más información</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="experiencia not-in-view delay-delay delay-catorce">
+			<h3>La diversidad de nuestros proyectos da cuenta de nuestra experiencia</h3>
+			<p>A lo largo de muchos años, hemos trabajado con distintas empresas e instituciones en diferentes propuestas:</p>
+			<div class="carousel carousel-showsixmoveone slide" id="carousel123">
+				<div class="carousel-inner">
+					<div class="item active">
+						<div class="col-xs-6 col-sm-4 col-md-2"><a href="#"><img src="imagenes/1.png" class="img-responsive margin-auto"></a></div>
+					</div>
+					<div class="item">
+						<div class="col-xs-6 col-sm-4 col-md-2"><a href="#"><img src="imagenes/1-2.png" class="img-responsive margin-auto"></a></div>
+					</div>
+					<div class="item">
+						<div class="col-xs-6 col-sm-4 col-md-2"><a href="#"><img src="imagenes/1-3.png" class="img-responsive margin-auto"></a></div>
+					</div>          
+					<div class="item">
+						<div class="col-xs-6 col-sm-4 col-md-2"><a href="#"><img src="imagenes/1-4.png" class="img-responsive margin-auto"></a></div>
+					</div>
+					<div class="item">
+						<div class="col-xs-6 col-sm-4 col-md-2"><a href="#"><img src="imagenes/1-5.png" class="img-responsive margin-auto"></a></div>
+					</div>
+					<div class="item">
+						<div class="col-xs-6 col-sm-4 col-md-2"><a href="#"><img src="imagenes/1-6.png" class="img-responsive margin-auto"></a></div>
+					</div>
+					<div class="item">
+						<div class="col-xs-6 col-sm-4 col-md-2"><a href="#"><img src="imagenes/1-7.png" class="img-responsive margin-auto"></a></div>
+					</div>
+					<div class="item">
+						<div class="col-xs-6 col-sm-4 col-md-2"><a href="#"><img src="imagenes/1-8.png" class="img-responsive margin-auto"></a></div>
+					</div>
+					<div class="item">
+						<div class="col-xs-6 col-sm-4 col-md-2"><a href="#"><img src="imagenes/1-9.png" class="img-responsive margin-auto"></a></div>
+					</div>
+					<div class="item">
+						<div class="col-xs-6 col-sm-4 col-md-2"><a href="#"><img src="imagenes/1-10.png" class="img-responsive margin-auto"></a></div>
+					</div>
+					
+				</div>
+				<!--<a class="left carousel-control" href="#carousel123" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+				<a class="right carousel-control" href="#carousel123" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>-->
+			</div>
+
+	  
+		</div>
+	</div>
+	<div class="seccion-formulario" id="contacto">
+		<a href="" class="btn btn-primary">Envianos un mensaje</a>
+		<form class="formulario" action="/action_page.php">
+			<div class="col-md-6">
+				<div class="form-group form-nombre">
+					<input type="nombre" class="form-control" id="nombre" name="nombre">
+					<label for="email">Nombre</label>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="form-group form-email">
+					<input type="email" class="form-control" id="email" name="email">
+					<label for="pwd">Email</label>
+				</div>
+			</div>
+			<div class="form-group">
+				<textarea class="form-control" rows="16" id="comment"></textarea>
+			</div>
+			<button type="submit" class="btn btn-default">Enviar</button>
+		</form>
+	</div>
+	<div class="mapa">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.05482310389!2d-58.381761284331304!3d-34.602775180459815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacedcd84d8b%3A0xd9f355dbbced202!2sSuipacha+472%2C+C1008AAJ+CABA!5e0!3m2!1ses!2sar!|style=feature:all|element:labels|visibility:off 4v1545849254458" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+	</div>
+	<!-- FOOTER -->
+	<footer>
+		<div class="footer-inner">
+			<p class="col-xs-12 col-md-3 col-sm-3 col-lg-3">© Management Goals Argentina S.A.</p>
+			<p class="col-xs-12 col-md-4 col-sm-3 col-lg-4"><i class="fas fa-map-marker-alt"></i> Suipacha 472 Of. 611 y 615 / C1008AAJ / CABA / Argentina</p>
+			<p class="col-xs-6 col-md-2 col-sm-3 col-lg-2"><i class="fas fa-phone"></i> Tel: +54 11 4328 4856</p>
+			<p class="col-xs-6 col-md-2 col-sm-3 col-lg-2"><i class="fas fa-envelope"></i> Info@mgar.com.ar</p>
+		</div>
+		<div class="caracter">
+			<p>Diseño con</p>
+			<div>
+				<img src="imagenes/logo-caracter.png">
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>

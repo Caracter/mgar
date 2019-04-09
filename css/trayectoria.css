@@ -1,0 +1,108 @@
+nav.navbar.mgar-nav {
+	background-color: rgba(34, 61, 87, 1) !important;
+
+}
+.navbar.mgar-nav.scrolled {
+box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.16);
+}
+.portada-trayectoria {
+	height: 458.9px;
+}
+.trayectoria-uno {
+	text-align: center;
+	padding-left: 545px;
+	padding-right: 545px;
+	padding-bottom: 25px;
+}
+.trayectoria-uno h2 {
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 1.36;
+	color: #223d57;
+	margin-bottom: 48px;
+	margin-top: 48px;
+}
+.trayectoria-uno h3 {
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 1.41;
+	text-align: center;
+	color: #223d57;
+	margin-bottom: 30px;
+}
+.trayectoria-uno h4 {
+	font-size: 18px;
+	line-height: 1.83;
+	color: #505050;
+	margin-bottom: 65px;
+}
+.trayectoria-uno h5 {
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 1.72;
+	color: #223d57;
+	margin-bottom: 30px;
+}
+.trayectoria-uno p {
+	font-size: 18px;
+	line-height: 1.83;
+	color: #505050;
+	margin-bottom: 118px;
+}
+.trayectoria-uno i {
+	font-size: 24px;
+}
+.trayectoria-uno a {
+	color: #223d57;
+}
+.trayectoria-uno a:hover {
+	text-decoration: none;
+}
+.trayectoria-dos {
+	background-image: url(../imagenes/trayectoria-back-2.png);
+	background-color: #223d57;
+	background-size: cover;
+	background-position: top left;
+	overflow: auto;
+	padding-top: 432px;
+	padding-bottom: 297px;
+	background-attachment: fixed;
+}
+.trayectoria-dos .trayectoria-dos-inner {
+	padding-right: 300px;
+	padding-left: 300px;
+	color: #fff;
+}
+.trayectoria-dos .trayectoria-dos-inner .trayectoria-dos-inner-text {
+	padding-right: 135px;
+}
+.trayectoria-dos .trayectoria-dos-inner h3 {
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.67;
+	letter-spacing: 0.4px;
+	text-align: left;
+	margin-bottom: 20px;
+}
+.trayectoria-dos .trayectoria-dos-inner p {
+	font-size: 18px;
+	 line-height: 1.67;
+	letter-spacing: -0.1px;
+	text-align: left;
+	margin-bottom: 20px;
+}
+.trayectoria-dos .trayectoria-dos-inner a.btn-primary {
+	background-color: transparent;
+	color: #fff;
+	border: #dee179 2px solid;
+	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+	border-radius: 35px;
+	padding: 14px 55px;
+	font-size: 16px;
+	font-weight: 600;
+	margin-top: 41.2px;
+}
+.trayectoria-dos .trayectoria-dos-inner a.btn-primary:hover {
+	background-color: #dee179;
+	color:  rgba(34, 61, 87, 1);
+}

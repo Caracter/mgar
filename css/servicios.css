@@ -586,6 +586,7 @@ color: #223d57;
   position: relative;
   clear: both;
   overflow: overlay;
+  min-height: 61.69px;
 }
 .footer .footer-inner  {
     padding-right: 386px;

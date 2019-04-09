@@ -750,19 +750,19 @@ select.form-control:-webkit-autofill:focus {
 }
 /* FOOTER */
 
-footer {
+.footer {
 	background-color: #000;
 	position: relative;
 	clear: both;
 	overflow: overlay;
 }
-footer .footer-inner  {
+.footer .footer-inner  {
     padding-right: 386px;
     padding-left: 386px;
 	background-color: #000;
 	overflow: overlay;
 }
-footer .footer-inner p {
+.footer .footer-inner p {
 	display: inline-block;
 	color: #fff;
 	font-size: 14px;
@@ -770,15 +770,15 @@ footer .footer-inner p {
 	padding: 18.7px 12px 10px;
 	text-align: center;
 }
-footer .footer-inner p i {
+.footer .footer-inner p i {
 	padding-right: 3px;
 }
-footer .caracter {
+.footer .caracter {
 	position: absolute;
 	top: 17px;
 	right: 48.5px;
 }
-footer .caracter p {
+.footer .caracter p {
 	font-size: 11px;
 	font-weight: 300;
 	line-height: 1.18;
